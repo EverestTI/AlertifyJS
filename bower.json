@@ -1,0 +1,20 @@
+{
+  "name": "AlertifyJS",
+  "version": "1.4.0",
+  "homepage": "https://github.com/EverestTI/AlertifyJS",
+  "authors": [
+    "MohammadYounes"
+  ],
+  "main": [
+          "build/css/alertify.css",
+           "build/alertify.min.js"
+           ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
