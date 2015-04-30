@@ -5,6 +5,7 @@
  * Licensed under MIT <http://opensource.org/licenses/mit-license.php>*/
 .alertify-notifier .ajs-message {
   width: 350px;
+  text-align: center;
 }
 .alertify-notifier .ajs-message.ajs-success {
   color: #fff;
