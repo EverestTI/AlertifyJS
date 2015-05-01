@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="../build/css/alertify.css">
+  <link rel="stylesheet" href="../build/css/themes/everestti.css">
+</head>
+<body>
+  <button onclick="notify()" >Click me</button>
+
+
+
+  <script src="../build/alertify.min.js"></script>
+  <script>
+
+    function notify()  {
+
+      alertify.set( 'notifier', 'position', 'top-right' );
+      alertify.set( 'notifier', 'delay', 1200 );
+      alertify.success( "Item cadastrado com successo" );
+
+    }
+
+  </script>
+
+</body>
+</html>
